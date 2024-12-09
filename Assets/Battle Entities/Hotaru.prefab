@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &896767229004506284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8982734432735630199}
+  - component: {fileID: 19592162267582079}
+  - component: {fileID: 3960765394925842182}
+  - component: {fileID: 7107646231461286468}
+  - component: {fileID: 3603668924743998557}
+  m_Layer: 0
+  m_Name: Skill Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8982734432735630199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896767229004506284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5020420114328035934}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19592162267582079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896767229004506284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6695b9c8efe5ba344afee1c05afeee3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillPool:
+  - {fileID: 3960765394925842182}
+  - {fileID: 7107646231461286468}
+  - {fileID: 3603668924743998557}
+  levelsLearnedAt: 000000000000000002000000
+--- !u!114 &3960765394925842182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896767229004506284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e9163cabc23514db4adcf27bec8268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillDaetra: 0
+  skillBasePower: 0
+  manaCost: 0
+  targetingMode: 0
+  canTargetDead: 0
+  animID: 0
+  skillDescription: This skill has no description yet.
+  typeAdvantageMult: 0
+  contraryTypeMult: 0
+  sameTypeAttackBonus: 0
+  critBonus: 0
+  randomDeviation: 0
+--- !u!114 &7107646231461286468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896767229004506284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd6f9e73c43285449fe0b8aed660afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillDaetra: 0
+  skillBasePower: 0
+  manaCost: 0
+  targetingMode: 0
+  canTargetDead: 0
+  animID: 0
+  skillDescription: This skill has no description yet.
+  typeAdvantageMult: 0
+  contraryTypeMult: 0
+  sameTypeAttackBonus: 0
+  critBonus: 0
+  randomDeviation: 0
+--- !u!114 &3603668924743998557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896767229004506284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a719fe40a6e6ba4d9177c39e1c9183d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillDaetra: 0
+  skillBasePower: 0
+  manaCost: 0
+  targetingMode: 0
+  canTargetDead: 0
+  animID: 0
+  skillDescription: This skill has no description yet.
+  typeAdvantageMult: 0
+  contraryTypeMult: 0
+  sameTypeAttackBonus: 0
+  critBonus: 0
+  randomDeviation: 0
+--- !u!1 &5020420114328035906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5020420114328035934}
+  - component: {fileID: 5020420114328035935}
+  - component: {fileID: 5020420114328035904}
+  - component: {fileID: -1028168723011757867}
+  m_Layer: 0
+  m_Name: Hotaru
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5020420114328035934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020420114328035906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 728852864571009222}
+  - {fileID: 8982734432735630199}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5020420114328035935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020420114328035906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bfe9abd8661424b913ee565eed37a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xp: 0
+  xpToLevel: 100
+  skillPool: {fileID: 896767229004506284}
+  unitName: Hotaru
+  unitLevel: 1
+  baseDaetra: -1
+  currentDaetra: -1
+  pipRegenRate: 1
+  maxPips: 2
+  currentPips: 0
+  maxHealth: 24
+  currentHealth: 24
+  maxMana: 20
+  currentMana: 20
+  baseAtk: 8
+  currentAtk: 8
+  baseDef: 6
+  currentDef: 6
+  initiative: 4
+  minHealthAffinity: 3
+  maxHealthAffinity: 10
+  minManaAffinity: 3
+  maxManaAffinity: 10
+  minAttackAffinity: 0
+  maxAttackAffinity: 3
+  minDefenseAffinity: 0
+  maxDefenseAffinity: 3
+  initiativeUpEveryLvs: 5
+  pipsUpEveryLvs: 20
+  pipRegenUpEveryLvs: 40
+  critRatePhase: 0
+  hitRatePhase: 0
+  skills:
+  - {fileID: 0}
+  - {fileID: 5020420114328035904}
+  - {fileID: -1028168723011757867}
+  - {fileID: 0}
+  - {fileID: 0}
+  statuses:
+  - {fileID: 0}
+  - {fileID: 0}
+  statusesAppliedOnTurn: 0
+  isGuarding: 0
+  isDead: 0
+  animID: 0
+  anim: {fileID: 4169673668205864737}
+  sizeOffset: 1
+--- !u!114 &5020420114328035904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020420114328035906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e9163cabc23514db4adcf27bec8268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillDaetra: 0
+  skillBasePower: 0
+  manaCost: 0
+  targetingMode: 0
+  canTargetDead: 0
+  animID: 0
+  skillDescription: 
+  typeAdvantageMult: 0
+  contraryTypeMult: 0
+  sameTypeAttackBonus: 0
+  critBonus: 0
+  randomDeviation: 0
+--- !u!114 &-1028168723011757867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020420114328035906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd6f9e73c43285449fe0b8aed660afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillDaetra: 0
+  skillBasePower: 0
+  manaCost: 0
+  targetingMode: 0
+  canTargetDead: 0
+  animID: 0
+  skillDescription: This skill has no description yet.
+  typeAdvantageMult: 0
+  contraryTypeMult: 0
+  sameTypeAttackBonus: 0
+  critBonus: 0
+  randomDeviation: 0
+--- !u!1001 &5020420114376815218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5020420114328035934}
+    m_Modifications:
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.0008039549
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 1.2133474
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.050963644
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.2092047
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.29710764
+      objectReference: {fileID: 0}
+    - target: {fileID: 325664562118980616, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.15461615
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.7491773
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.0029593185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.59433365
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.74917763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249799946020118403, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.14828101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 1.3710065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.018155478
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.10223034
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.11487746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430671603806968316, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.069316365
+      objectReference: {fileID: 0}
+    - target: {fileID: 8486041200217305885, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_Name
+      value: Hotaru
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967147779978827091, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9407a06790d4fad439fec4deb0423403, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+--- !u!4 &728852864571009222 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5742505892765506228, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+  m_PrefabInstance: {fileID: 5020420114376815218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4169673668205864737 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8967147779978827091, guid: 96d54bdfe7a75a546b29a363f3e5b0b4, type: 3}
+  m_PrefabInstance: {fileID: 5020420114376815218}
+  m_PrefabAsset: {fileID: 0}

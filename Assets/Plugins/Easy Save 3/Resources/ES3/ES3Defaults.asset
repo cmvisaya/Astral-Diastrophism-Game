@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b340139c9e4d054f904d8b452798652, type: 3}
+  m_Name: ES3Defaults
+  m_EditorClassIdentifier: 
+  settings:
+    _location: 0
+    path: SaveFile.es3
+    encryptionType: 0
+    compressionType: 0
+    encryptionPassword: password
+    directory: 0
+    format: 0
+    prettyPrint: 1
+    bufferSize: 2048
+    saveChildren: 1
+    typeChecking: 1
+    safeReflection: 1
+    memberReferenceMode: 0
+    referenceMode: 2
+    serializationDepthLimit: 64
+    assemblyNames:
+    - UniGLTF
+    - Assembly-CSharp
+    - Assembly-CSharp-firstpass
+    - VRM
+    - VRMShaders.GLTF.IO.Runtime
+    - Cinemachine
+    - Autodesk.Fbx
+    - VRMShaders.VRM10.MToon10.Runtime
+    - UniHumanoid
+    - FastSpringBone
+    - VRMShaders.GLTF.UniUnlit.Runtime
+    - VRMShaders.VRM.IO.Runtime
+    - MToon
+    - VRMShaders.VRM10.Format.Runtime
+    - UniGLTF.Samples.ScreenSpace
+    - FbxBuildTestAssets
+    - UniGLTF.Tests
+    - UniVRM.Editor
+    - VRMShaders.GLTF.UniUnlit.Editor
+    - UniGLTF.Editor
+    - UniHumanoid.Editor
+    - VRM.Tests
+    - VRMShaders.GLTF.IO.Tests
+    - VRMShaders.VRM10.MToon10.Editor
+    - MToon.Editor
+    - Autodesk.Fbx.Editor
+    - VRMShaders.GLTF.IO.Editor
+    - VRMShaders.VRM10.MToon10.Tests
+    - UniHumanoid.Editor.Tests
+    - VRM.Samples.Editor.Tests
+    - VRMShaders.VRM.IO.Editor
+    showAdvancedSettings: 1
+  addMgrToSceneAutomatically: 0
+  autoUpdateReferences: 1
+  addAllPrefabsToManager: 1
+  logDebugInfo: 0
+  logWarnings: 1
+  logErrors: 1

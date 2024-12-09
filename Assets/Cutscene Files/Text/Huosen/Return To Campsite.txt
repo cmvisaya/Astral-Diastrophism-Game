@@ -1,0 +1,1 @@
+`0You approach your humble makeshift campsite.; `|6<b>Hotaru</b>: Wait... huh?; @11; |2<b>Hotaru</b>: A girl... she looks really tired.; @  Wake her up| Let her rest@ Assets/Cutscene Files/Text/Huosen/Wake Her Up.txt; Assets/Cutscene Files/Text/Huosen/Let Her Rest.txt

@@ -1,0 +1,1 @@
+=-2You find some berries lying around in the shrubbery.; `0`|4<b>Hotaru:</b> Nice! I should get going back to my campsite before more monsters show up.; `2`<b>Objective: Return to the campsite.</b>;  

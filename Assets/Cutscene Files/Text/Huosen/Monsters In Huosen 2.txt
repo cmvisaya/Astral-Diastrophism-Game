@@ -1,0 +1,1 @@
+You see some <b>monsters</b> ahead of you. Though you're not quite close enough yet, you're certain they'll be hostile once you get close.; `|1<b>Hotaru:</b> Well... I guess it's to be expected.; <b>Hotaru:</b> Nothing I can't handle, though.; `Make contact with a <b>monster</b> to initiate combat with it.;  

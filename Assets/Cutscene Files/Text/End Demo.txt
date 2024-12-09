@@ -1,0 +1,1 @@
+Hello, my name is <b>Lotus</b>, and I am the lead developer for <b>Astral Diastrophism</b>.; I hope you enjoyed the demo, and even more so hope you'll look forward to the full release!; <b>The game window will now close.</b>; #2;  
